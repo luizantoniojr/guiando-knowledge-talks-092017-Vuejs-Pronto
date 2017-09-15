@@ -1,4 +1,4 @@
-# gkt
+# Guiando-Knowledge-Talks-092017-Vuejs-Pronto
 
 > A Vue.js project
 
