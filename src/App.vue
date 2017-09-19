@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-light is-large">
+  <section class="hero is-light is-fullheight">
     <app-navbar></app-navbar>
     <router-view></router-view>
     <app-footer></app-footer>
