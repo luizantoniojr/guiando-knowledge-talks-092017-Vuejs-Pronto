@@ -1,23 +1,27 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
+  <section class="hero is-info is-large">
+    <app-navbar></app-navbar>
     <router-view></router-view>
-  </div>
+    <app-footer></app-footer>
+  </section>
 </template>
 
 <script>
+
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    'app-navbar': Navbar,
+    'app-footer': Footer
+  }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+#app{
+  min-height: 100%
 }
 </style>
